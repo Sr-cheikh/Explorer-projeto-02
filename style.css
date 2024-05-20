@@ -2,11 +2,17 @@ body{
     margin: 0;
 
     font-family: "Open Sans", sans-serif;
+
+    background-origin: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, 
+    rgba(227, 255, 248, 0.38, 100%));
+
+    min-width: 100vh;
 }
 
 .page{
     width: 1000px;
-    margin: 65px auto 0;
+    margin: 0 auto;
+    padding-top: 18px;
 }
 
 nav{
@@ -32,8 +38,13 @@ ul{
     text-decoration: none;
 }
 
+ul li a{
+    opacity: 0.5;
+}
+
 ul li a:hover{
     font-weight: 800;
+    opacity: 1;
 }
 
 h1 ul{
@@ -89,7 +100,7 @@ button{
 }
 
 button:hover{
-    background: #5aa78c;
+    background: #5AA78C;
 }
 
 footer{
@@ -103,4 +114,10 @@ footer{
 
 footer a{
     font-weight: 400;
+}
+
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
