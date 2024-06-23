@@ -1,4 +1,4 @@
-<h1 align="center"> Explorer Projeto 01 </h1>
+<h1 align="center"> Explorer Projeto 02 </h1>
 
 <p align="center">
 Explorer é um curso que estou realizando pela Roketset. <br/>
